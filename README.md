@@ -1,12 +1,40 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Project Name
 
-Currently, two official plugins are available:
+Setup Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the Repository
+   Clone this repository to your local machine:
 
-## Expanding the ESLint configuration
+```bash
+git clone https://github.com/suyungshan/-post-listings-table.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install Dependencies
+Navigate to the project directory and install the required dependencies:
+cd main-program
+npm install
+3. Run the Development Server
+Start the development server:
+
+npm run dev
+This will launch the project at http://localhost:5173 or your specified port.
+
+4. Build the Project
+To build the project for production:
+
+npm run build
+This will create an optimized production build in the dist folder.
+
+
+
+ Features included
+ 1. 點擊表格內容進入詳情頁：用戶可以點擊表格中的每一行，跳轉到該項目的詳細頁面。
+ 2. 用戶刪除評論：用戶可以刪除自己發表的評論。
+
+ Technologies Used
+ This project is built with the following technologies:
+ React: Front-end library for building user interfaces.
+ Vite: Fast build tool and development server.
+ Tailwind CSS: Utility-first CSS framework for styling.
+```
